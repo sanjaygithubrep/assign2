@@ -1,38 +1,238 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding: 0;
+}
+.abc{
+  height:15vh;
+}
+.abox{
+  background-color: greenyellow;
+}
+#cars{
+  position:relative;
+  top:-20px;
+  left:60px;
+}
+#car{
+  position:relative;
+  top:-20px;
+  left:80px;
+}
+.sss{
+  position: relative;
+  left:10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input1{
+  width:45vw;
+  height:10vh;
+  font-size: 6vh;
+}
+.sun2{
+  position:relative;
+  top:-7%;
+  width:100%;
+  opacity: 2;
+}
+.cbox{
+  display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+p1{
+  position: relative;
+  top:-35%;
+  left:17%;
+}
+.sun{
+  position: relative;
+  top:24%
+}
+
+.line{
+  width:1vw;
+  height:5vh;
+  background-color: black;
+}
+
+.icon1{
+  font-size: 40px;
+  position: relative;
+  left:13%;
+}
+p3{
+  position: relative;
+  top:19%;
+  left:-1%;
+}
+p4{
+  position:relative;
+  top:-13%;
+  left:30%;
+}
+
+
+.xyz9{
+  position: relative;
+  left:20%;
+}
+.xyz8{
+  position: relative;
+  bottom:30px;
+  left:440px;
+}
+.wxy{
+  height:30vh;
+}
+.wxy2{
+  color:#29B712;
+}
+
+
+@media screen and (max-width:980px){
+  
+  .input1{
+    width:100%;
+  }
+  .xyz8{
+    display: none;
+
+  }
+  .sun2{
+    display: none;
+  }
+  .cbox{
+    display: none;
+  }
+  .abox{
+    display: none;
+  }
+  .bbox{
+    width:100%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+@media screen and (max-width:450px){
+  
+  h6{
+    font-size:15px;
+    font-weight: 700;
   }
-  to {
-    transform: rotate(360deg);
+  p5{
+    font-size:15px;
+
+  }
+  .wxy{
+    height:45vh;
+  }
+  .icon1{
+    display: none;
+  }
+  p3{
+    display: none;
+  }
+  .ccc{
+    display: none;
+  }
+  .input1{
+    width:400px;
+    font-size:20px;
+  }
+}
+@media screen and (max-width:571px){
+  
+  h6{
+    font-size:15px;
+    font-weight: 700;
+  }
+  p5{
+    font-size:15px;
+
+  }
+  .wxy{
+    height:45vh;
+  }
+  .icon1{
+    display: none;
+  }
+  p3{
+    display: none;
+  }
+  .ccc{
+    display: none;
+  }
+  .input1{
+    width:400px;
+    font-size:20px;
+  }
+}
+@media screen and (max-width:581px){
+  
+  h6{
+    font-size:15px;
+    font-weight: 700;
+  }
+  p5{
+    font-size:15px;
+
+  }
+  .wxy{
+    height:45vh;
+  }
+  .icon1{
+    display: none;
+  }
+  p3{
+    display: none;
+  }
+  .ccc{
+    display: none;
+  }
+  .input1{
+    width:400px;
+    font-size:20px;
+  }
+}
+@media screen and (max-width:623px){
+  
+  h6{
+    font-size:15px;
+    font-weight: 700;
+  }
+  p5{
+    font-size:15px;
+
+  }
+  .wxy{
+    height:45vh;
+  }
+  .icon1{
+    display: none;
+  }
+  p3{
+    display: none;
+  }
+  .ccc{
+    display: none;
+  }
+  .input1{
+    width:400px;
+    font-size:20px;
+  }
+}
+@media screen and (max-width:765px){
+  .icon1{
+    display: none;
+  }
+  .wxy{
+    height:40vh;
+  }
+  p3{
+    display: none;
+  }
+  .ccc{
+    display: none;
+  }
+  .input1{
+    width:100%;
   }
 }
